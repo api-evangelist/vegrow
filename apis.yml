@@ -1,9 +1,25 @@
 aid: vegrow
 name: Vegrow
-description: 'Vegrow is a company surfaced as a portfolio company of prosus-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: agtech. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Vegrow is a Bengaluru-based B2B fruits marketplace founded in 2020 by IIT
+  alumni that connects Indian fruit farmers with demand outlets across retail channels,
+  using technology to match produce such as apples, bananas, pomegranates, and grapes
+  with buyers, handling grading, sorting, quality assurance, and delivery, and paying
+  farmers digitally. Backed by GIC, Prosus Ventures, Matrix Partners India, Elevation
+  Capital, Lightspeed, and Ankur Capital, it raised a $46M round led by GIC in December
+  2023. Vegrow publishes no public API or developer program today.'
 url: https://raw.githubusercontent.com/api-evangelist/vegrow/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.vegrow.in/assets/logo/logo_full.webp
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Agtech
+- Agriculture
+- Marketplace
+- B2B
+- Fruits
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +44,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/vegrow-domain-security.yml
+- type: LLMsTxt
+  url: llms/vegrow-llms.txt
+- type: PrivacyPolicy
+  url: https://www.vegrow.in/privacy-policy/
 - type: Website
-  url: https://vegrow.in
+  url: https://www.vegrow.in
+- type: Twitter
+  url: https://twitter.com/Vegrow
+- type: LinkedIn
+  url: https://www.linkedin.com/company/vegrow/
+- type: Facebook
+  url: https://www.facebook.com/profile.php?id=100054631036463
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

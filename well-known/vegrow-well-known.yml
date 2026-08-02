@@ -1,0 +1,26 @@
+generated: '2026-07-21'
+method: probed
+source: live HTTP probes of https://www.vegrow.in
+host: www.vegrow.in
+probes:
+- path: /.well-known/security.txt
+  status: 404
+  file: null
+- path: /.well-known/openid-configuration
+  status: 404
+  file: null
+- path: /.well-known/oauth-authorization-server
+  status: 404
+  file: null
+- path: /.well-known/api-catalog
+  status: 404
+  file: null
+- path: /.well-known/ai-plugin.json
+  status: 404
+  file: null
+- path: /llms.txt
+  status: 404
+  file: null
+summary: No well-known resources are published on www.vegrow.in. Vegrow is a B2B
+  fruits marketplace with no public API or developer program; absence of these
+  endpoints is expected and recorded as valid probe data.
