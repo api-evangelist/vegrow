@@ -8,6 +8,9 @@ description: 'Vegrow is a Bengaluru-based B2B fruits marketplace founded in 2020
   Capital, Lightspeed, and Ankur Capital, it raised a $46M round led by GIC in December
   2023. Vegrow publishes no public API or developer program today.'
 url: https://raw.githubusercontent.com/api-evangelist/vegrow/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Vegrow publishes no public API or developer program today."
 deliveryModel:
   model: unknown
   open_source: false
